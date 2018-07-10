@@ -1,3 +1,67 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15pt;
+}
+
+a:link {
+    color: #393C39;
+}
+
+a:visited {
+    color: #393C39;
+}
+
+/*.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+}*/
+
+.container {
+  width: auto;
+  max-width: 680px;
+  margin-right:2%;
+}
+
+.text-right {
+  margin-right:2%;
+}
+
+.top-right {
+    position: absolute;
+    top: 15px;
+}
+
+.link:link, .link:visited {
+  font-family: 'Dancing Script', cursive;
+  color: #393C39;
+
+}
+
+#logo {
+  position: relative; // Reposition logo from the natural layout
+  left: 75px;
+  top: 0px;
+  z-index: 0;
+}
+
+
+.container.shadow-lg.p-3.mb-5.bg-white.rounded {
+  position: relative; // Reposition links
+  left: 75px;
+  top: -35px;
+  z-index: 2;
 }
